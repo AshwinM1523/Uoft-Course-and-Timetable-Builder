@@ -6,4 +6,61 @@
     android:layout_height="match_parent"
     tools:context=".ConfirmSignupActivity">
 
+    <TextView
+        android:id="@+id/signup_msg_confirmation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:width="200sp"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="center"
+        android:text="@string/signup_page_confirmation"
+        android:textColor="#515151"
+        android:textColorHint="#4A4A4A"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signup_confirmation_checkmark" />
+
+    <Button
+        android:id="@+id/signup_confirmation_login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:width="150sp"
+        android:backgroundTint="#1C375B"
+        android:text="@string/home_page_login_btn"
+        android:textSize="18sp"
+        app:cornerRadius="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signup_msg_confirmation"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/signup_confirmation_uoft_logo"
+        android:layout_width="104dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        android:contentDescription="@string/home_page_img_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/uoft" />
+
+    <ImageView
+        android:id="@+id/signup_confirmation_checkmark"
+        android:layout_width="328dp"
+        android:layout_height="458dp"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/signup_page_confirmation_checkmark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/signup_confirmation_checkmark" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

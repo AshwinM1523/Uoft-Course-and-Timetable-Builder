@@ -1,10 +1,14 @@
 <resources>
 	<string name="app_name">CoursePlannerApp</string>
-	<string name="home_page_Header">Course Planner</string>
+
+	<string name="home_page_header">Course Planner</string>
 	<string name="home_page_summary">All your <u>Course Planning</u> in One Place</string>
 	<string name="home_page_jingle">Efficient and Organized solutions for all your course planning needs</string>
 	<string name="home_page_img_description">logo</string>
 	<string name="home_page_login_btn">LOGIN</string>
 	<string name="home_page_register_btn">REGISTER</string>
+
+	<string name="signup_page_confirmation">Your account has been registered. Go back to the login page and login!</string>
+	<string name="signup_page_confirmation_checkmark">checkmark</string>
 
 </resources>
