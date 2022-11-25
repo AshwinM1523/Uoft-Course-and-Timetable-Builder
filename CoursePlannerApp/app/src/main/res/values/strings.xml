@@ -10,5 +10,6 @@
 
 	<string name="signup_page_confirmation">Your account has been registered. Go back to the login page and login!</string>
 	<string name="signup_page_confirmation_checkmark">checkmark</string>
+	<string name="signup_page_confirmation_home_text">HOME</string>
 
 </resources>

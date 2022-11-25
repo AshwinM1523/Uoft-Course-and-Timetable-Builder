@@ -30,7 +30,7 @@
         android:layout_marginBottom="56dp"
         android:width="150sp"
         android:backgroundTint="#1C375B"
-        android:text="@string/home_page_login_btn"
+        android:text="@string/signup_page_confirmation_home_text"
         android:textSize="18sp"
         app:cornerRadius="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -53,9 +53,9 @@
 
     <ImageView
         android:id="@+id/signup_confirmation_checkmark"
-        android:layout_width="328dp"
-        android:layout_height="458dp"
-        android:layout_marginTop="60dp"
+        android:layout_width="308dp"
+        android:layout_height="380dp"
+        android:layout_marginTop="116dp"
         android:contentDescription="@string/signup_page_confirmation_checkmark"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
